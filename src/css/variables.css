@@ -1,0 +1,99 @@
+/* ==========================================
+   ÁNGELES DESIGN
+   Design System
+========================================== */
+
+:root {
+
+  /* ===============================
+     Colors
+  =============================== */
+
+  --color-primary: #C7A66A;
+  --color-primary-dark: #B28E4F;
+
+  --color-background: #F8F6F2;
+  --color-surface: #FFFFFF;
+
+  --color-text: #2D2D2D;
+  --color-text-light: #6B6B6B;
+
+  --color-border: #E6E1D8;
+
+  --color-success: #4CAF50;
+  --color-danger: #E53935;
+
+  /* ===============================
+     Typography
+  =============================== */
+
+  --font-title: "Cormorant Garamond", serif;
+  --font-body: "Poppins", sans-serif;
+
+  --fs-xs: .75rem;
+  --fs-sm: .875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2rem;
+  --fs-3xl: 3rem;
+  --fs-4xl: 4rem;
+
+  /* ===============================
+     Font Weight
+  =============================== */
+
+  --fw-light:300;
+  --fw-regular:400;
+  --fw-medium:500;
+  --fw-semibold:600;
+  --fw-bold:700;
+
+  /* ===============================
+     Container
+  =============================== */
+
+  --container-width:1200px;
+
+  /* ===============================
+     Spacing
+  =============================== */
+
+  --space-1:8px;
+  --space-2:16px;
+  --space-3:24px;
+  --space-4:32px;
+  --space-5:48px;
+  --space-6:64px;
+  --space-7:96px;
+  --space-8:120px;
+
+  /* ===============================
+     Radius
+  =============================== */
+
+  --radius-sm:8px;
+  --radius-md:12px;
+  --radius-lg:20px;
+  --radius-full:999px;
+
+  /* ===============================
+     Shadows
+  =============================== */
+
+  --shadow-sm:
+      0 4px 10px rgba(0,0,0,.05);
+
+  --shadow-md:
+      0 10px 30px rgba(0,0,0,.08);
+
+  --shadow-lg:
+      0 20px 60px rgba(0,0,0,.12);
+
+  /* ===============================
+     Transition
+  =============================== */
+
+  --transition:.35s ease;
+
+}
