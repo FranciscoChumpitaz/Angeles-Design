@@ -145,3 +145,46 @@
     }
 
 }
+
+/* ==========================================
+   SERVICES RESPONSIVE
+========================================== */
+
+@media (max-width: 992px) {
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        padding: 42px 34px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .section-header {
+        margin-bottom: 50px;
+        text-align: left;
+    }
+
+    .section-header p {
+        margin: 0;
+    }
+
+    .service-card {
+        padding: 36px 28px;
+        border-radius: 20px;
+    }
+
+    .service-number {
+        font-size: 2.6rem;
+        margin-bottom: 26px;
+    }
+
+    .service-card h3 {
+        font-size: 1.7rem;
+    }
+
+}
