@@ -188,3 +188,45 @@
     }
 
 }
+
+/* ==========================================
+   PORTFOLIO RESPONSIVE
+========================================== */
+
+@media (max-width: 992px) {
+
+    .portfolio-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .portfolio-large {
+        grid-row: span 1;
+    }
+
+    .portfolio-wide {
+        grid-column: span 2;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 300px;
+    }
+
+    .portfolio-wide {
+        grid-column: span 1;
+    }
+
+    .portfolio-content {
+        left: 24px;
+        bottom: 24px;
+    }
+
+    .portfolio-content h3 {
+        font-size: 1.6rem;
+    }
+
+}
