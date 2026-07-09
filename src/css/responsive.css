@@ -283,3 +283,20 @@
     }
 
 }
+
+/* ==========================================
+   FAQ RESPONSIVE
+========================================== */
+
+@media (max-width: 576px) {
+
+    .faq-question {
+        padding: 22px 24px;
+        font-size: .95rem;
+    }
+
+    .faq-answer p {
+        padding: 0 24px 24px;
+    }
+
+}
