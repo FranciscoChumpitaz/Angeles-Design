@@ -326,3 +326,33 @@
     }
 
 }
+
+/* ==========================================
+   FOOTER RESPONSIVE
+========================================== */
+
+@media (max-width: 992px) {
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .footer {
+        padding-top: 70px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 42px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
