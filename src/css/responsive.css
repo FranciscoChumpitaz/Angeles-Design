@@ -300,3 +300,29 @@
     }
 
 }
+
+/* ==========================================
+   CONTACT RESPONSIVE
+========================================== */
+
+@media (max-width: 992px) {
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .contact-form {
+        padding: 34px 24px;
+        border-radius: 22px;
+    }
+
+    .contact-content h2 {
+        font-size: 2.4rem;
+    }
+
+}
