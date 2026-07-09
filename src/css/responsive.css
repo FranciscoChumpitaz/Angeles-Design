@@ -258,3 +258,28 @@
     }
 
 }
+
+/* ==========================================
+   TESTIMONIALS RESPONSIVE
+========================================== */
+
+@media (max-width: 992px) {
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial-card {
+        padding: 40px 32px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .testimonial-card {
+        padding: 34px 26px;
+        border-radius: 20px;
+    }
+
+}
